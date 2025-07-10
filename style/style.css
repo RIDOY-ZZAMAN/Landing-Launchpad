@@ -1,0 +1,150 @@
+.raleway-normal {
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.commonpadding {
+  padding: 64px 150px;
+}
+.header {
+  height: 698px;
+  background: url("../Assets/Hero-bg.png");
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-logo {
+  font-size: 34px;
+  color: #4e47ff;
+}
+
+.button-common-style {
+  background-color: #4e47ff;
+  color: #ffffff;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  border-style: none;
+}
+
+.button-signup {
+  height: 48px;
+  width: 132px;
+}
+
+.banner {
+  text-align: center;
+}
+.banner-text {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.button-banner {
+  height: 48px;
+  width: 174px;
+}
+
+.button-action {
+  height: 48px;
+  width: 229px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f7fb;
+}
+.action-heading {
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+}
+
+.action-text {
+  font-size: 24px;
+  font-weight: 200;
+  color: #252432;
+}
+
+.action-img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
+
+.production-users-section {
+  text-align: center;
+  background-color: #f5f7fb;
+}
+.production-users-section img {
+  height: 306px;
+  width: 1597px;
+}
+
+.user-feedback {
+  text-align: center;
+  background-color: #f5f7fb;
+}
+
+.feedback-heading {
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+}
+
+.feedback-cart {
+  width: 366px;
+  height: 243px;
+  border-radius: 14px;
+  text-align: left;
+  background-color: white;
+  padding: 40px 0px 0px 40px;
+}
+
+.reviwer {
+  display: flex;
+  align-items: center;
+}
+
+.reviwer img {
+  border-radius: 50%;
+}
+
+.reviwer span {
+  margin-left: 18px;
+}
+
+.user-feedback-cart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.additional {
+  background-color: #f5f7fb;
+}
+.additional-section {
+  text-align: center;
+  background-color: white;
+  border-radius: 14px;
+  padding: 30px 0;
+}
+.button-additional-section {
+  height: 48px;
+  width: 195px;
+  margin-bottom: 20px;
+}
+
+.additional-section img {
+  border-radius: 48px;
+}
