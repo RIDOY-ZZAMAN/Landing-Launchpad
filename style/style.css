@@ -148,3 +148,45 @@ body {
 .additional-section img {
   border-radius: 48px;
 }
+
+.Letsgointouch {
+  background-color: #f5f7fb;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Letsgo-text {
+  font-size: 97px;
+  font-weight: bold;
+}
+
+.inputfiled {
+  text-align: left;
+}
+
+.inputfiled input {
+  width: 487px;
+  height: 60px;
+  border-radius: 10px;
+  border-style: none;
+  padding-left: 15px;
+}
+
+.inputfiled textarea {
+  width: 497px;
+  height: 135px;
+  border-radius: 10px;
+  border-style: none;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.button-getintouch {
+  width: 517px;
+  height: 60px;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 18px;
+}
