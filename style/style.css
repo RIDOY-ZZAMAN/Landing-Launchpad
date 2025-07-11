@@ -222,7 +222,7 @@ body {
 }
 
 .button-getintouch {
-  width: 517px;
+  width: 514px;
   height: 60px;
   border-radius: 10px;
   border-style: none;
@@ -236,4 +236,24 @@ body {
   color: #4e47ff;
   font-size: 100px;
   font-weight: bold;
+}
+
+.footerlink ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerlink ul li {
+  list-style: none;
+}
+
+.footerlink ul li a {
+  padding: 20px 15px;
+  text-decoration: none;
+  color: #8987a1;
+}
+
+.footercommonmargin {
+  margin: 15px 0;
 }
