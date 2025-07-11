@@ -41,6 +41,14 @@ body {
   border-style: none;
 }
 
+.button-common-style:hover {
+  background-color: #218838;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
 .button-signup {
   height: 48px;
   width: 132px;
