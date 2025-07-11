@@ -5,6 +5,10 @@
   font-style: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   padding: 0;
@@ -53,6 +57,7 @@ body {
 .button-banner {
   height: 48px;
   width: 174px;
+  margin-top: 37px;
 }
 
 .button-action {
@@ -74,6 +79,7 @@ body {
 .action-text {
   font-size: 24px;
   font-weight: 200;
+  margin: 23px 0;
   color: #252432;
 }
 
@@ -92,11 +98,28 @@ body {
   width: 1597px;
 }
 
+.Productive-user-cart {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.commonstyleforproductiveusersheading {
+  font-size: 80px;
+  color: #4e47ff;
+  margin-bottom: 10px;
+}
+
+.commonstyleforproductiveusers {
+  font-size: 20px;
+}
 .user-feedback {
   text-align: center;
   background-color: #f5f7fb;
 }
-
+.user-feedback-cart {
+  margin-top: 50px;
+}
 .feedback-heading {
   font-weight: bold;
   font-size: 42px;
@@ -109,9 +132,16 @@ body {
   border-radius: 14px;
   text-align: left;
   background-color: white;
-  padding: 40px 0px 0px 40px;
+  padding: 30px 0px 0px 30px;
 }
 
+.feedback-common-margin {
+  margin: 19px 0;
+}
+
+.feeback-common-heading {
+  margin-bottom: 10px;
+}
 .reviwer {
   display: flex;
   align-items: center;
@@ -132,6 +162,10 @@ body {
 
 .additional {
   background-color: #f5f7fb;
+}
+
+.addition-section-common {
+  margin: 15px 0;
 }
 .additional-section {
   text-align: center;
@@ -166,6 +200,10 @@ body {
   text-align: left;
 }
 
+.inputfieldName {
+  margin: 10px 0px;
+}
+
 .inputfiled input {
   width: 487px;
   height: 60px;
@@ -189,4 +227,13 @@ body {
   border-radius: 10px;
   border-style: none;
   margin-top: 18px;
+}
+
+.footersection {
+  text-align: center;
+}
+.footerLogo {
+  color: #4e47ff;
+  font-size: 100px;
+  font-weight: bold;
 }
